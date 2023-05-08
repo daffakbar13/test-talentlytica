@@ -1,11 +1,11 @@
 {
-  "name": "test_technical_code",
+  "name": "test-talentlytica",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 2305",
+    "dev": "next dev -p 805",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 805",
     "lint": "next lint"
   },
   "dependencies": {
@@ -14,9 +14,15 @@
     "@types/react-dom": "18.2.3",
     "eslint": "8.39.0",
     "eslint-config-next": "13.4.0",
+    "formik": "^2.2.9",
+    "humps": "^2.0.1",
     "next": "13.4.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "typescript": "5.0.4",
+    "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/humps": "^2.0.2"
   }
 }
